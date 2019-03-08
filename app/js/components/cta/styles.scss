@@ -1,0 +1,12 @@
+.cta {
+    bottom: 0;
+    height:30px;
+    left: 0;
+    margin-left: 0;
+    opacity: 0;
+    width: 143px;
+    position: absolute;
+    &__img {
+        width: 100%;
+    }
+}

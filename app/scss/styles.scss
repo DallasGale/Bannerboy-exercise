@@ -1,0 +1,30 @@
+@import './variables';
+
+body {
+  background : #1d1d1d;
+}
+
+.banner {
+  height: 250px;
+  overflow: hidden;
+  padding: 10px;
+  width: 300px;
+}
+
+.canvas {
+  background-color: $blue;
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  vertical-align: middle
+}
+
+.content {
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+@import '../js/components/cta/styles.scss';

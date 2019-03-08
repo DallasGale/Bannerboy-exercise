@@ -1,0 +1,22 @@
+.tagline {
+    position: absolute;
+    width: 213px;
+    top: 10px;
+    left: 7px;
+    &__one {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    &__two {
+        opacity: 0;
+    }
+
+    &__three {
+        opacity: 0;
+
+    }
+    &__img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+.logo {
+    &__small {
+        bottom: 6px;
+        position: absolute;
+        opacity: 0;
+        transform: scale(0);
+        right: 6px;
+        width: 60px;
+    }
+    &__large {
+        display: table-cell;
+        opacity: 0;
+        width: 100%;
+        padding: 50px;
+        vertical-align: middle
+    }
+    &__img {
+        width: 100%;
+    }
+}

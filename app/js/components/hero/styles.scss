@@ -1,0 +1,56 @@
+.hero {
+    position: absolute;
+    top: 70px;
+    height: 126px;
+    left:-200px;
+    width: 280px;
+    opacity: 0;
+
+    &__wheel {
+        animation: spinning 1s infinite linear;
+        width: 35px;
+        height: 35px;
+
+        &--left {
+            left: 42px;
+            position: absolute;
+            top: 77px;
+        }
+        &--right {
+            right: 42px;
+            position: absolute;
+            top: 77px;
+        }
+    }
+
+    &__one {
+        opacity: 1;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    &__two {
+        opacity: 0;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    &__three {
+        opacity: 0;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+}
+
+
+
+@keyframes spinning {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}

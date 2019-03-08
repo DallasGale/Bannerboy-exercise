@@ -1,0 +1,16 @@
+.car {
+    &__type {
+        position: absolute;
+        width: 100%;
+        top: 34px;
+        &--blue {
+            opacity: 0;
+        }
+        &--orange {
+            opacity: 0;
+        }
+        &--red {
+            opacity: 0;
+        }
+    }
+}
